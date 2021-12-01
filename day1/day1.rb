@@ -16,6 +16,9 @@ def count_three_meas_sliding_window_increases(input_array)
     return count
 end
 
+"""
+https://adventofcode.com/2021/day/1
+"""
 
 measurements = File.readlines("day1/measurements.txt").map(&:to_i)
 # problem 1
