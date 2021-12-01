@@ -19,6 +19,6 @@ end
 
 measurements = File.readlines("day1/measurements.txt").map(&:to_i)
 # problem 1
-# puts(count_increases(measurements))
+puts(count_increases(measurements))
 # problem 2
 puts(count_three_meas_sliding_window_increases(measurements))
