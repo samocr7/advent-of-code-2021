@@ -40,7 +40,7 @@ end
 https://adventofcode.com/2021/day/2
 """
 
-commands = File.readlines("day2/commands.txt")
+commands = File.readlines("day2/input.txt")
 # problem 1
 puts(calculate_position_and_depth_product(commands))
 # problem 2
